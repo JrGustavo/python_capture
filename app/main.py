@@ -33,3 +33,6 @@ try:
         print("Country not found.")
 except AttributeError:
     print("Error: La función get_country() no existe en utils.")
+
+if __name__ == '__main__':
+    run()
