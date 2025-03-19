@@ -1,12 +1,14 @@
 def get_population(country_dict):
-    population = {
-        'China': 1403500365,
-
+    population_dict = {
+        '2022': 300,
+        '2023': 400
     }
-    keys = ['country', 'population']
-    values = [300, 400]
-    return keys, values
+
+    labels = population_dict.keys()
+    values =  population_dict.keys()
+    return labels,values
 
 def population_by_country(data, country):
     result = list(filter(lambda x: x['country'] == country, data))
     return result
+

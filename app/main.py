@@ -1,5 +1,7 @@
 import utils
 
+
+
 # Obtener las claves y valores de la población desde utils
 try:
     keys, values = utils.get_population()
